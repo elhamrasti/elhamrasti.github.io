@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elham Rasti — Smart IoT & Networking</title>
+  <meta name="description" content="Elham Rasti — Smart IoT Systems & Networking student. Projects: MicroShift, SBOM benchmarking, IoT orchestration. Available for internship / thesis." />
+  <style>
+    :root{
+      --bg:#fbfcfe; --card:#ffffff; --muted:#6b7280; --accent:#3b82f6; --glass: rgba(255,255,255,0.6);
+      --radius:14px; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#f8fbff 0%,var(--bg) 100%);color:#0f172a;line-height:1.5}
+    header{position:fixed;inset:0 0 auto 0;height:72px;background:rgba(255,255,255,0.8);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:space-between;padding:12px 28px;border-bottom:1px solid rgba(15,23,42,0.04);z-index:40}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:10px;overflow:hidden;display:inline-block;background:#e6eefc;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    nav{display:flex;gap:18px;align-items:center}
+    nav a{color:#0f172a;text-decoration:none;font-weight:600}
+    .cta{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    main{max-width:980px;margin:110px auto;padding:28px}
+    .hero{display:grid;grid-template-columns:140px 1fr;gap:28px;align-items:center}
+    .photo{width:140px;height:140px;border-radius:16px;overflow:hidden;flex-shrink:0;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
+    .photo img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{margin:0;font-size:26px}
+    .muted{color:var(--muted);margin-top:6px}
+    .tags{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+    .tag{background:linear-gradient(90deg,rgba(59,130,246,0.12),rgba(59,130,246,0.06));padding:6px 10px;border-radius:999px;font-weight:600;color:var(--accent);font-size:13px}
+    .section{margin-top:34px}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .card{background:var(--card);border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(15,23,42,0.04);border:1px solid rgba(15,23,42,0.03)}
+    .project-title{display:flex;justify-content:space-between;gap:12px;align-items:start}
+    .project-title h3{margin:0}
+    .meta{color:var(--muted);font-size:13px;margin-top:6px}
+    ul.clean{padding-left:18px;margin:10px 0}
+    footer{max-width:980px;margin:40px auto;padding:28px;color:var(--muted);font-size:14px}
+    @media(max-width:820px){.hero{grid-template-columns:1fr;grid-template-rows:auto auto}.grid2{grid-template-columns:1fr}.photo{width:120px;height:120px}}
+    /* small nav collapse for mobile */
+    .menu-toggle{display:none}
+    @media(max-width:720px){nav{display:none}.menu-toggle{display:block}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">ER</div>
+      <div style="line-height:1">
+        <div style="font-weight:800">Elham Rasti</div>
+        <div style="font-size:13px;color:var(--muted)">Smart IoT Systems & Networking — Metropolia UAS</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="cta">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="menu">Menu</button>
+  </header>
+
+  <main>
+    <section id="about" class="hero">
+      <div class="photo card"><img src="ax.jpg" alt="Elham Rasti"></div>
+      <div>
+        <h1>Elham Rasti — IT Engineer</h1>
+        <div class="muted">Smart IoT Systems & Networking student (Metropolia UAS) • Espoo, Finland</div>
+        <div class="tags">
+          <div class="tag">IoT & MicroShift</div>
+          <div class="tag">Networking (CCNA)</div>
+          <div class="tag">Linux & RHEL</div>
+          <div class="tag">Cloud (AWS)</div>
+        </div>
+
+        <div style="margin-top:16px;font-size:15px;color:#0f172a">
+          <strong>Profile</strong>
+          <p style="margin:6px 0;color:var(--muted)">Smart IoT and networking student with hands-on experience in collaborative projects with Nokia. Skilled in structured testing, benchmarking, documentation, and presenting findings for decision-making. Passionate about combining technical expertise with business-oriented analysis to support strategy and presales initiatives.</p>
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:10px">
+          <a href="https://github.com/elhamrasti" target="_blank" rel="noopener" style="text-decoration:none;padding:8px 12px;border-radius:10px;border:1px solid rgba(15,23,42,0.06);font-weight:700">GitHub</a>
+          <a href="https://www.linkedin.com/in/elham-rasti" target="_blank" rel="noopener" style="text-decoration:none;padding:8px 12px;border-radius:10px;background:transparent;color:var(--accent);font-weight:700">LinkedIn</a>
+          <a href="mailto:elham.rastighahfarokhi@metropolia.fi" style="text-decoration:none;padding:8px 12px;border-radius:10px;border:1px solid rgba(15,23,42,0.06);font-weight:700">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 style="margin-bottom:12px">Selected Projects</h2>
+      <div class="grid2">
+        <div class="card">
+          <div class="project-title">
+            <h3>IoT & MicroShift Container Systems</h3>
+            <div class="meta">Metropolia UAS — in collaboration with Nokia · 04/2025 – 06/2025</div>
+          </div>
+          <p class="muted">Managed an IoT containerization project using MicroShift, Podman, and Docker. Coordinated team efforts, organized documentation, and presented results to academic and industry reviewers. Practiced DevOps workflows and Kubernetes-like orchestration.</p>
+          <ul class="clean">
+            <li>Role: Project manager & technical implementer</li>
+            <li>Highlights: MicroShift on Raspberry Pi, container orchestration, documentation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="project-title">
+            <h3>SBOM Quality Assurance & Benchmarking</h3>
+            <div class="meta">Metropolia UAS – with Nokia · 01/2025 – 04/2025</div>
+          </div>
+          <p class="muted">Researched and benchmarked open-source SBOM generation tools and aligned results with the OpenChain Telco SBOM Guide. Authored structured reports and documentation in GitHub using Markdown.</p>
+          <ul class="clean">
+            <li>Role: Researcher & documentation lead</li>
+            <li>Highlights: SBOM tooling, reporting, stakeholder communication</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="project-title">
+            <h3>RAN Security Capabilities Testing</h3>
+            <div class="meta">Metropolia UAS — 06/2025 – 09/2025</div>
+          </div>
+          <p class="muted">Evaluated Linux container security capabilities on RHEL & MicroShift, analyzing privilege configurations and ASLR behavior. Authored documentation and presented findings; acted as main contact with university supervisors and Nokia stakeholders.</p>
+          <ul class="clean">
+            <li>Role: Lead tester & presenter</li>
+            <li>Highlights: Security benchmarking, ASLR analysis, stakeholder liaison</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="project-title">
+            <h3>Heart Rate Variability Monitoring (PPG)</h3>
+            <div class="meta">Academic project · 2024</div>
+          </div>
+          <p class="muted">Worked on HRV monitoring using PPG signals and implemented an algorithm on Raspberry Pi Pico (MicroPython). Coordinated documentation and demonstration of results.</p>
+          <ul class="clean">
+            <li>Role: Developer & coordinator</li>
+            <li>Highlights: Signal processing, MicroPython, embedded systems</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section grid2">
+      <div class="card">
+        <h3>Technical Skills</h3>
+        <p class="muted">IoT systems, MicroShift, RHEL for Edge, Podman, Docker, Raspberry Pi, CCNA-level networking (VLANs, STP, routing), Linux security, AWS fundamentals.</p>
+        <h4 style="margin-top:12px;margin-bottom:6px">Tools & Reporting</h4>
+        <p class="muted">GitHub, Markdown, PowerPoint, Excel, SBOM tools, Kubernetes/MicroShift, Wireshark, oc/oc-commands.</p>
+      </div>
+
+      <div class="card">
+        <h3>Analysis & Communication</h3>
+        <p class="muted">Technical benchmarking, structured testing, documentation, stakeholder liaison, presentations, and collaborative reporting.</p>
+        <h4 style="margin-top:12px;margin-bottom:6px">Certifications</h4>
+        <p class="muted">CCNAv7 (Cisco), Ethical Hacking (NetAcad), AWS Academy Graduate — Cloud Architecting, VMware vCenter Certified, Linux Commands & Shell Scripting, Python Programming.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="grid2" style="margin-top:12px">
+        <div class="card">
+          <h3>Metropolia University of Applied Sciences</h3>
+          <div class="meta">Bachelor of Smart IoT Systems & Networking — Expected 2026</div>
+          <p class="muted">Third-year student with coursework and projects in IoT, networking, and cybersecurity. Active member of the Engineering Union.</p>
+        </div>
+
+        <div class="card">
+          <h3>Languages & Interests</h3>
+          <div class="meta">English (Advanced) • Finnish (Elementary)</div>
+          <p class="muted">Hobbies include building IoT projects, participating in hackathons, and exploring open-source communities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card" style="display:flex;flex-direction:column;gap:10px">
+        <div style="font-weight:700">Email</div>
+        <a href="mailto:elham.rastighahfarokhi@metropolia.fi">elham.rastighahfarokhi@metropolia.fi</a>
+        <div style="display:flex;gap:10px;margin-top:8px">
+          <a href="https://www.linkedin.com/in/elham-rasti" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/elhamrasti" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p class="muted" style="margin-top:8px">If you prefer a downloadable CV, let me know and I will prepare a PDF version formatted for printing at the expo.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div style="text-align:center">© Elham Rasti • Smart IoT & Networking Student — Metropolia UAS</div>
+  </footer>
+
+  <script>
+    // simple menu toggle for small screens
+    const btn = document.querySelector('.menu-toggle');
+    btn && btn.addEventListener('click', ()=>{
+      const nav = document.querySelector('nav');
+      if(!nav) return;
+      if(nav.style.display === 'flex') nav.style.display = 'none'; else nav.style.display = 'flex';
+      nav.style.position = 'absolute'; nav.style.right = '18px'; nav.style.top = '72px'; nav.style.background = 'white'; nav.style.padding='12px'; nav.style.borderRadius='12px';
+    });
+  </script>
+</body>
+</html>
