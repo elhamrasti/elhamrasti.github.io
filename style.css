@@ -211,3 +211,99 @@ h2{
     color:white;
 
 }
+
+/* ABOUT */
+
+.section{
+
+    padding:100px 0;
+
+}
+
+.about{
+
+    display:flex;
+
+    flex-direction:column;
+
+    max-width:900px;
+
+}
+
+.about h2{
+
+    font-size:38px;
+
+    margin-bottom:30px;
+
+    color:#2563eb;
+
+}
+
+.about p{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    margin-bottom:22px;
+
+    color:#555;
+
+}
+
+/* ========================= */
+/* Skills */
+/* ========================= */
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+.skill-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.skill-card h3{
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+
+}
+
+.skill-card ul{
+
+    padding-left:20px;
+
+}
+
+.skill-card li{
+
+    margin-bottom:10px;
+
+}
