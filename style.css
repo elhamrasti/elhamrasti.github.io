@@ -495,3 +495,67 @@ h2{
     font-weight:600;
 
 }
+
+/* ========================= */
+/* Certifications */
+/* ========================= */
+
+.certifications{
+
+    display:block;
+
+}
+
+.certifications h2{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:50px;
+
+}
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+}
+
+.certificate-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.certificate-card h3{
+
+    color:#2563eb;
+
+    margin-bottom:12px;
+
+}
+
+.certificate-card p{
+
+    color:#666;
+
+}
