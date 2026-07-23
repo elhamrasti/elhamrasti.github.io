@@ -4,6 +4,14 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
+section{
+    scroll-margin-top:90px;
+}
+
 body{
 
     font-family:'Poppins',sans-serif;
@@ -305,5 +313,91 @@ h2{
 .skill-card li{
 
     margin-bottom:10px;
+
+}
+
+/* ========================= */
+/* Experience */
+/* ========================= */
+
+.experience{
+
+    display:block;
+
+}
+
+.experience h2{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:50px;
+
+}
+
+.experience-card{
+
+    background:white;
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.experience-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    margin-bottom:15px;
+
+}
+
+.experience-header h3{
+
+    font-size:26px;
+
+}
+
+.experience-header span{
+
+    color:#2563eb;
+
+    font-weight:600;
+
+}
+
+.experience-date{
+
+    color:#777;
+
+    margin-bottom:20px;
+
+}
+
+.experience-card ul{
+
+    padding-left:20px;
+
+}
+
+.experience-card li{
+
+    margin-bottom:12px;
+
+    line-height:1.8;
 
 }
